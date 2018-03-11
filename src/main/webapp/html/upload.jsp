@@ -9,14 +9,15 @@
 </head>
 <body>
 <h1>文件上传实例 - 菜鸟教程</h1>
-<form method="post" action="/UploadHeadSculpture" enctype="multipart/form-data">
+<form method="post" action="/NewUpload" enctype="multipart/form-data">
     选择一个文件:
     <input type="file" name="uploadFile" />
+    cover:<input type="file" name="coverURl">
     <br/><br/>
-    <!--  title:<input type="text" name="title">
+      title:<input type="text" name="title">
      Did: <input type="text" name="Did">
-     coverURl:<input type="text" name="coverURl">
-  -->    <input type="submit" value="上传" />
+
+      <input type="submit" value="上传" />
 </form>
 </body>
 </html>
